@@ -34,7 +34,7 @@
 
 **Github仓库地址**：https://github.com/849261680/personal-website
 
-**在线访问地址**：https://personal-website-git-main-jacks-projects-6a735f63.vercel.app
+**在线访问地址**：https://psx1.vercel.app
 
 ## 6. 个人总结
 
