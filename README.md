@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 个人网站
 
-## Getting Started
+这是一个使用Next.js和Tailwind CSS构建的简洁个人网站，用于展示个人简介、项目和联系方式。网站设计简约专业，适合求职展示。
 
-First, run the development server:
+## 功能特点
+
+- 响应式设计，适配各种屏幕尺寸
+- 个人简介展示
+- 项目展示
+- 联系方式
+
+## 技术栈
+
+- [Next.js](https://nextjs.org/) - React框架
+- [Tailwind CSS](https://tailwindcss.com/) - CSS框架
+- [TypeScript](https://www.typescriptlang.org/) - 类型安全
+- [Vercel](https://vercel.com/) - 部署平台
+
+## 本地开发
+
+克隆项目后，安装依赖：
+
+```bash
+npm install
+```
+
+启动开发服务器：
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+打开 [http://localhost:3000](http://localhost:3000) 查看网站。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 部署
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+该项目配置为使用Vercel一键部署：
 
-## Learn More
+1. Fork本仓库到你的GitHub账户
+2. 在Vercel上创建新项目并链接到你的GitHub仓库
+3. 配置环境变量（如需）并部署
 
-To learn more about Next.js, take a look at the following resources:
+## 自定义
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 修改`/src/app/page.tsx`文件更新个人信息和项目展示
+- 在`/public/images/`目录替换头像图片
+- 根据需要添加更多项目或页面
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 许可
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT

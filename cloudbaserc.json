@@ -1,0 +1,14 @@
+{
+  "envId": "您的环境ID",
+  "framework": {
+    "name": "website",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "outputPath": "out"
+        }
+      }
+    }
+  }
+} 
