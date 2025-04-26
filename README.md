@@ -1,51 +1,44 @@
-# 个人网站
+# 个人求职展示网站
 
-这是一个使用Next.js和Tailwind CSS构建的简洁个人网站，用于展示个人简介、项目和联系方式。网站设计简约专业，适合求职展示。
+## 1. 项目概述
 
-## 功能特点
+**项目名称**：个人求职展示网站
 
-- 响应式设计，适配各种屏幕尺寸
-- 个人简介展示
-- 项目展示
-- 联系方式
+**项目目的**：展示个人技能、项目经历、简历，辅助求职
 
-## 技术栈
+**项目时间**：2025年4月
 
-- [Next.js](https://nextjs.org/) - React框架
-- [Tailwind CSS](https://tailwindcss.com/) - CSS框架
-- [TypeScript](https://www.typescriptlang.org/) - 类型安全
-- [Vercel](https://vercel.com/) - 部署平台
+## 2. 技术栈
 
-## 本地开发
+- Next.js
+- Tailwind CSS
+- 部署平台：Vercel（国外版）/ 腾讯云CloudBase（国内版）
 
-克隆项目后，安装依赖：
+## 3. 主要功能
 
-```bash
-npm install
-```
+- 首页自我介绍（Hero区）
+- 技能展示（Skills区）
+- 项目展示（Projects区）
+- 联系方式（Contact区）
+- 简历下载功能
+- 响应式布局，兼容手机和PC端
 
-启动开发服务器：
+## 4. 项目亮点
 
-```bash
-npm run dev
-```
+- 使用Next.js实现静态生成，优化加载速度
+- Tailwind CSS快速搭建美观UI
+- 部署到Vercel/CloudBase，支持全球访问
+- 简历一键下载，提升招聘方体验
 
-打开 [http://localhost:3000](http://localhost:3000) 查看网站。
+## 5. 项目部署
 
-## 部署
+**Github仓库地址**：https://github.com/849261680/personal-website
 
-该项目配置为使用Vercel一键部署：
+**在线访问地址**：https://personal-website-git-main-jacks-projects-6a735f63.vercel.app
 
-1. Fork本仓库到你的GitHub账户
-2. 在Vercel上创建新项目并链接到你的GitHub仓库
-3. 配置环境变量（如需）并部署
+## 6. 个人总结
 
-## 自定义
-
-- 修改`/src/app/page.tsx`文件更新个人信息和项目展示
-- 在`/public/images/`目录替换头像图片
-- 根据需要添加更多项目或页面
-
-## 许可
-
-MIT
+- 学到了Next.js开发流程
+- 掌握了Vercel部署基本流程
+- 熟悉了基本的响应式网页设计
+- 理解了从0搭建到上线完整流程 
