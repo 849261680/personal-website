@@ -12,7 +12,7 @@
 
 - Next.js
 - Tailwind CSS
-- 部署平台：Vercel（国外版）/ 腾讯云CloudBase（国内版）
+- 部署平台：Vercel（国外版）
 
 ## 3. 主要功能
 
