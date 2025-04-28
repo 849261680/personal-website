@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: '张三的个人网站 | AI应用工程师/后端开发',
-  description: '张三的个人网站，展示AI与后端开发项目及个人技术能力',
+  title: '彭世雄的个人网站 | AI应用工程师/后端开发',
+  description: '彭世雄的个人网站，展示AI与后端开发项目及个人技术能力',
 };
 
 export default function RootLayout({
