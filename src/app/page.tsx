@@ -132,13 +132,13 @@ export default function Home() {
               {/* 项目卡片 2 */}
               <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">智能推荐系统</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">RAG企业知识库问答系统</h3>
                   <p className="text-gray-600 mb-6">
-                    基于用户行为的个性化内容推荐系统，提高用户参与度和转化率。利用协同过滤和深度学习技术，根据用户历史行为分析兴趣偏好，提供精准的内容推荐。
+                    基于检索增强生成（RAG）的企业知识库问答系统，实现高效精准的企业内部信息检索与问答。融合向量数据库和大语言模型，通过智能检索和上下文理解，为企业员工提供准确、实时的知识库信息查询服务。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Python</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">TensorFlow</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">LangChain</span>
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">FastAPI</span>
                   </div>
                   <div className="flex gap-4">
