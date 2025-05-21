@@ -92,14 +92,14 @@ export default function Home() {
               {/* 项目卡片 1 */}
               <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">AI简历优化助手</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">RAG企业知识库问答系统</h3>
                   <p className="text-gray-600 mb-6">
-                    基于大语言模型的简历优化工具，帮助求职者改进简历内容，提升求职成功率。智能分析简历内容，提供针对性的修改建议，优化关键词和表达方式。
+                    基于检索增强生成（RAG）的企业知识库问答系统，实现高效精准的企业内部信息检索与问答。融合向量数据库和大语言模型，通过智能检索和上下文理解，为企业员工提供准确、实时的知识库信息查询服务。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Next.js</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">OpenAI API</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Tailwind CSS</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Python</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">LangChain</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">FastAPI</span>
                   </div>
                   <div className="flex gap-4">
                     <a 
@@ -132,14 +132,14 @@ export default function Home() {
               {/* 项目卡片 2 */}
               <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">RAG企业知识库问答系统</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">AI简历优化助手</h3>
                   <p className="text-gray-600 mb-6">
-                    基于检索增强生成（RAG）的企业知识库问答系统，实现高效精准的企业内部信息检索与问答。融合向量数据库和大语言模型，通过智能检索和上下文理解，为企业员工提供准确、实时的知识库信息查询服务。
+                    基于大语言模型的简历优化工具，帮助求职者改进简历内容，提升求职成功率。智能分析简历内容，提供针对性的修改建议，优化关键词和表达方式。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Python</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">LangChain</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">FastAPI</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Next.js</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">OpenAI API</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Tailwind CSS</span>
                   </div>
                   <div className="flex gap-4">
                     <a 
@@ -155,7 +155,7 @@ export default function Home() {
                       Demo
                     </a>
                     <a 
-                      href="https://github.com/yourusername/recommendation-system" 
+                      href="https://github.com/849261680/AI_Resume" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-gray-100 text-gray-800 rounded-md hover:bg-gray-200 transition-colors inline-flex items-center"
