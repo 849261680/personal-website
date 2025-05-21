@@ -50,7 +50,7 @@ export default function Home() {
         >
           <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Hi，我是彭世雄，一名专注于AI应用开发的计算机专业生
+              Hi，我是彭世雄，一位专注于构建实用 AI 应用的开发者。
             </h1>
             <p className="text-xl text-gray-700 mb-10 max-w-3xl mx-auto">
               毕业于东北大学信息安全专业，熟悉Python、Next.js，擅长将AI技术应用到实际问题中，有丰富的项目开发经验
