@@ -103,7 +103,7 @@ export default function Home() {
                   </div>
                   <div className="flex gap-4">
                     <a 
-                      href="https://ai345.vercel.app/" 
+                      href="https://ragsys.vercel.app/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-primary text-white rounded-md hover:bg-blue-600 transition-colors inline-flex items-center"
@@ -115,7 +115,7 @@ export default function Home() {
                       Demo
                     </a>
                     <a 
-                      href="https://github.com/849261680/AI_Resume" 
+                      href="https://github.com/849261680/enterprise-knowledge-hub" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-gray-100 text-gray-800 rounded-md hover:bg-gray-200 transition-colors inline-flex items-center"
