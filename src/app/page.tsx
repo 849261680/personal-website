@@ -172,9 +172,9 @@ export default function Home() {
               {/* 项目卡片 3 */}
               <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">智能聊天机器人</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">AI Agent面试网站</h3>
                   <p className="text-gray-600 mb-6">
-                    基于大语言模型的客服聊天机器人，支持多轮对话和知识库检索。集成业务知识库，实现自动应答、问题解析及精准回复，大幅提升客服效率和用户满意度。
+                    基于大语言模型的智能面试平台，模拟真实面试场景进行AI驱动的面试练习。支持多种面试类型，提供个性化问题生成、实时反馈和面试表现分析，帮助求职者提升面试技能和自信心。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">React</span>
@@ -195,7 +195,7 @@ export default function Home() {
                       Demo
                     </a>
                     <a 
-                      href="https://github.com/yourusername/chatbot" 
+                      href="https://github.com/849261680/interview-gpt" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-gray-100 text-gray-800 rounded-md hover:bg-gray-200 transition-colors inline-flex items-center"
