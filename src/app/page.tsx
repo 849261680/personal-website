@@ -63,7 +63,7 @@ export default function Home() {
                 查看项目
               </a>
               <a 
-                href="/Resume_张三.pdf" 
+                href="/彭世雄简历.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-blue-600 transition-all hover:translate-y-[-2px]"
