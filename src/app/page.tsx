@@ -143,7 +143,7 @@ export default function Home() {
                   </div>
                   <div className="flex gap-4">
                     <a 
-                      href="https://ai345.vercel.app/" 
+                      href="https://intgpt.vercel.app/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-primary text-white rounded-md hover:bg-blue-600 transition-colors inline-flex items-center"
