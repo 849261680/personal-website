@@ -177,9 +177,10 @@ export default function Home() {
                     基于大语言模型的智能研究助手平台，能够深度分析和研究各种主题。支持多维度信息收集、智能分析和报告生成，为用户提供全面深入的研究结果和洞察。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">LangChain</span>
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">React</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Node.js</span>
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">OpenAI API</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">FastAPI</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">DeepSeek API</span>
                   </div>
                   <div className="flex gap-4">
                     <a 
