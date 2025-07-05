@@ -53,7 +53,7 @@ export default function Home() {
               Hi，我是彭世雄，一位专注于构建实用 AI 应用的开发者。
             </h1>
             <p className="text-xl text-gray-700 mb-10 max-w-3xl mx-auto">
-              毕业于东北大学信息安全专业，熟悉Python、Next.js，擅长将AI技术应用到实际问题中，有丰富的项目开发经验
+              毕业于东北大学信息安全专业，熟悉Python、Fast API、LangChain,长将AI技术应用到实际问题中，有丰富的项目开发经验
             </p>
             <div className="flex gap-4 justify-center">
               <a 
@@ -89,21 +89,22 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">项目展示</h2>
             <div className="space-y-8">
-              {/* 项目卡片 1 */}
+              {/* 项目卡片 1 - Deep Research Agent */}
               <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">RAG企业知识库问答系统</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">Deep Research Agent</h3>
                   <p className="text-gray-600 mb-6">
-                    基于检索增强生成（RAG）的企业知识库问答系统，实现高效精准的企业内部信息检索与问答。融合向量数据库和大语言模型，通过智能检索和上下文理解，为企业员工提供准确、实时的知识库信息查询服务。
+                    基于大语言模型的智能研究助手平台，能够深度分析和研究各种主题。支持多维度信息收集、智能分析和报告生成，为用户提供全面深入的研究结果和洞察。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">Python</span>
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">LangChain</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">React</span>
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">FastAPI</span>
+                    <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">DeepSeek API</span>
                   </div>
                   <div className="flex gap-4">
                     <a 
-                      href="https://ragsys.vercel.app/" 
+                      href="https://rsgpt.vercel.app/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-primary text-white rounded-md hover:bg-blue-600 transition-colors inline-flex items-center"
@@ -115,7 +116,7 @@ export default function Home() {
                       Demo
                     </a>
                     <a 
-                      href="https://github.com/849261680/enterprise-knowledge-hub" 
+                      href="https://github.com/849261680/research-gpt" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-gray-100 text-gray-800 rounded-md hover:bg-gray-200 transition-colors inline-flex items-center"
