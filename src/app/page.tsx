@@ -172,9 +172,9 @@ export default function Home() {
               {/* 项目卡片 3 */}
               <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-all hover:translate-y-[-4px]">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">AI Agent面试网站</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-gray-900">Deep Research Agent</h3>
                   <p className="text-gray-600 mb-6">
-                    基于大语言模型的智能面试平台，模拟真实面试场景进行AI驱动的面试练习。支持多种面试类型，提供个性化问题生成、实时反馈和面试表现分析，帮助求职者提升面试技能和自信心。
+                    基于大语言模型的智能研究助手平台，能够深度分析和研究各种主题。支持多维度信息收集、智能分析和报告生成，为用户提供全面深入的研究结果和洞察。
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     <span className="px-3 py-1.5 bg-blue-100 text-blue-800 rounded-md text-sm">React</span>
@@ -183,7 +183,7 @@ export default function Home() {
                   </div>
                   <div className="flex gap-4">
                     <a 
-                      href="https://intgpt.vercel.app/" 
+                      href="https://rsgpt.vercel.app/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-primary text-white rounded-md hover:bg-blue-600 transition-colors inline-flex items-center"
@@ -195,7 +195,7 @@ export default function Home() {
                       Demo
                     </a>
                     <a 
-                      href="https://github.com/849261680/interview-gpt" 
+                      href="https://github.com/849261680/research-gpt" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm px-5 py-2.5 bg-gray-100 text-gray-800 rounded-md hover:bg-gray-200 transition-colors inline-flex items-center"
