@@ -41,9 +41,9 @@ const translations = {
     
     // 技能展示
     'skills.title': '技能展示',
-    'skills.languages': '语言',
-    'skills.frameworks': '框架',
-    'skills.tools': '工具',
+    'skills.languages': 'Agent框架',
+    'skills.frameworks': 'AI技术栈',
+    'skills.tools': '开发工具',
     
     // 联系方式
     'contact.title': '联系我',
@@ -87,9 +87,9 @@ const translations = {
     
     // Skills
     'skills.title': 'Skills',
-    'skills.languages': 'Languages',
-    'skills.frameworks': 'Frameworks',
-    'skills.tools': 'Tools',
+    'skills.languages': 'Agent Frameworks',
+    'skills.frameworks': 'AI Tech Stack',
+    'skills.tools': 'Dev Tools',
     
     // Contact
     'contact.title': 'Contact Me',
