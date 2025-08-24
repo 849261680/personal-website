@@ -22,8 +22,8 @@ const translations = {
     'nav.contact': '联系我',
     
     // 首页内容
-    'hero.title': 'Hi，我是彭世雄，一位信仰AGI的Agent开发者。',
-    'hero.subtitle': '毕业于东北大学软件学院，熟悉Python、Fast API、LangChain,长将AI技术应用到实际问题中，有丰富的项目开发经验',
+    'hero.title': 'Hi，我是彭世雄，一位Agent开发工程师。',
+    'hero.subtitle': '毕业于东北大学，熟悉Python、Agent架构、Context Engineering,擅长将AI技术应用到实际问题中，有丰富的项目开发经验',
     'hero.viewProjects': '查看项目',
     'hero.downloadResume': '下载简历',
     'hero.contactMe': '联系我',
