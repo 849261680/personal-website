@@ -25,7 +25,6 @@ const translations = {
     'hero.title': 'Hi，我是彭世雄，一位Agent开发工程师。',
     'hero.subtitle': '毕业于东北大学，熟悉Python、Agent架构、Context Engineering,擅长将AI技术应用到实际问题中，有丰富的项目开发经验',
     'hero.viewProjects': '查看项目',
-    'hero.downloadResume': '下载简历',
     'hero.contactMe': '联系我',
     
     // 项目展示
@@ -44,6 +43,7 @@ const translations = {
     'skills.languages': 'Agent框架',
     'skills.frameworks': 'AI技术栈',
     'skills.tools': '开发工具',
+    'skills.vectorDB': '向量数据库',
     
     // 联系方式
     'contact.title': '联系我',
@@ -68,10 +68,9 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero content
-    'hero.title': 'Hi, I\'m Peng Shixiong, an Agent developer who believes in AGI.',
-    'hero.subtitle': 'Graduated from School of Software, Northeastern University, proficient in Python, FastAPI, LangChain, and experienced in applying AI technology to real-world problems with rich project development experience.',
+    'hero.title': 'Hi, I\'m Peng Shixiong, an Agent developer.',
+    'hero.subtitle': 'Graduated from Northeastern University; familiar with Python, Agent architecture, and Context Engineering; skilled at applying AI to real-world problems with rich project experience.',
     'hero.viewProjects': 'View Projects',
-    'hero.downloadResume': 'Download Resume',
     'hero.contactMe': 'Contact Me',
     
     // Projects
@@ -90,6 +89,7 @@ const translations = {
     'skills.languages': 'Agent Frameworks',
     'skills.frameworks': 'AI Tech Stack',
     'skills.tools': 'Dev Tools',
+    'skills.vectorDB': 'Vector Database',
     
     // Contact
     'contact.title': 'Contact Me',

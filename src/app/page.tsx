@@ -66,15 +66,6 @@ export default function Home() {
 {t('hero.viewProjects')}
               </a>
               <a 
-                href="/彭世雄简历.pdf" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-blue-600 transition-all hover:translate-y-[-2px]"
-                download
-              >
-{t('hero.downloadResume')}
-              </a>
-              <a 
                 href="#contact" 
                 className="px-6 py-3 bg-white text-primary border border-primary rounded-lg font-medium hover:bg-blue-50 transition-all hover:translate-y-[-2px]"
               >
@@ -282,7 +273,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                    <span className="text-gray-700">向量数据库</span>
+                    <span className="text-gray-700">{t('skills.vectorDB')}</span>
                   </div>
                 </div>
               </div>
